@@ -22,6 +22,7 @@ class Student
       attribute.each do |key, value|
 binding.pry
       self
+      end
     end
 
   end
