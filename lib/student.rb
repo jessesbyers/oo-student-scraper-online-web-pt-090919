@@ -14,7 +14,7 @@ class Student
     #
     #   @name = name
     #   @location = location
-    end
+    
 
 
   end
