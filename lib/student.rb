@@ -20,11 +20,10 @@ class Student
   def add_student_attributes(attributes_hash)
     # self.create_from_collection(students_array)
     attributes_hash.each do |attribute|
-      attribute.each do |element|
         binding.pry
 
-        # self.send("#{element[0]}=", element[1])
-      end
+      self.send("#{attribute[0]}=", attribute[1])
+
     end
     self
   end
