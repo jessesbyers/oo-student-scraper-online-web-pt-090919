@@ -18,7 +18,7 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
-    self.create_from_collection(students_array)
+    # self.create_from_collection(students_array)
     attributes_hash.each do |attribute|
       attribute.each do |element|
         self.send(:element[0] => :element[1])
