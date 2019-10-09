@@ -8,13 +8,7 @@ class Student
   def initialize(student_hash)
     @name = student_hash[:name]
     @location = student_hash[:location]
-    binding.pry
-    # student_hash.each do |key, value|
-    #   binding.pry
-    #
-    #   @name = name
-    #   @location = location
-    
+    # binding.pry
 
 
   end
