@@ -36,11 +36,11 @@ class Scraper
         attribute_hash[:blog] = url
       end
     end
-    
+
     doc.css("div.vitals-text-container").each do |info|
       attribute_hash[:profile_quote] = info.css("div.profile-quote").text
     end
-    
+
     doc.css("div.details-container").each do |stat|
       attribute_hash[:bio] = stat.css("p").text
     end
