@@ -23,6 +23,8 @@ class Student
 binding.pry
       self
       end
+
+      # self = Student.new
     end
 
   end
