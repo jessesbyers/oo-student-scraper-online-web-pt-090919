@@ -10,6 +10,7 @@ class Student
       @name = student[:name]
       @location = student[:location]
     binding.pry
+  end
 
 
   end
