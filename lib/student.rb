@@ -21,7 +21,7 @@ class Student
     # self.create_from_collection(students_array)
     attributes_hash.each do |attribute|
       attribute.each do |element|
-        self.send(element[0] => element[1])
+        self.send("#{element[0]}=", element[1])
 binding.pry
       end
     end
