@@ -12,10 +12,8 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    # students_array = Scraper.scrape_index_page(index_url)
     students_array.each do |hash|
       Student.new(hash)
-binding.pry
     end
   end
 
